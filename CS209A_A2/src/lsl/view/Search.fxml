@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="298.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lsl.view.SearchController">
+   <children>
+      <ChoiceBox fx:id="searchModeChoiceBox" layoutX="40.0" layoutY="156.0" prefWidth="150.0" AnchorPane.leftAnchor="40.0" />
+      <TextField fx:id="textField" layoutX="15.0" layoutY="102.0" prefHeight="30.0" prefWidth="442.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+      <Text layoutX="40.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search:" AnchorPane.leftAnchor="40.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="308.0" layoutY="212.0" mnemonicParsing="false" onMouseClicked="#next" text="Next" AnchorPane.rightAnchor="75.0">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,5 @@
+SummaryPath=log/summary.csv
+ErrorPath=log/error.txt
+TargetSeparator=,
+TargetLineSeparator=\r\n
+TargetEncoding=utf-8

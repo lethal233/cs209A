@@ -1,0 +1,5 @@
+"input path","output path","separator"
+"test/1.txt","test/out/1.csv"," "
+"test/2.txt","test/out/2.csv",";"
+"test/3.txt","test/out/3.csv",","
+"test/4.txt","test/out/4.csv",";"
